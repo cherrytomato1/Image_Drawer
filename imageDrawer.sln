@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SERVER", "SERVER\SERVER.vcxproj", "{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIENT2", "CLIENT2\CLIENT2.vcxproj", "{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Debug|Win32.Build.0 = Debug|Win32
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Debug|x64.ActiveCfg = Debug|Win32
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Release|Win32.ActiveCfg = Release|Win32
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Release|Win32.Build.0 = Release|Win32
+		{90FC84BD-1FF3-4CEC-A414-D2DB8467F9C1}.Release|x64.ActiveCfg = Release|Win32
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Debug|Win32.Build.0 = Debug|Win32
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Debug|x64.ActiveCfg = Debug|x64
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Debug|x64.Build.0 = Debug|x64
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Release|Win32.ActiveCfg = Release|Win32
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Release|Win32.Build.0 = Release|Win32
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Release|x64.ActiveCfg = Release|x64
+		{CC9C5BDA-28C8-4973-A536-A915C0F3ABE9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C93E4A2F-FFD1-469C-93FF-FF5B8D6033C9}
+	EndGlobalSection
+EndGlobal
