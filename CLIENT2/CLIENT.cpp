@@ -204,7 +204,7 @@ listNode* deleteNode(listHead *L,listNode *current)		//노드삭제
 
 int MouseClick(int *x, int *y)
 { 
-	HANDLE   hIn, hOut;
+	/*HANDLE   hIn, hOut;
 	DWORD   dwNOER;
 	INPUT_RECORD rec;
 
@@ -235,7 +235,7 @@ int MouseClick(int *x, int *y)
 			}
 		}
 	}
-
+	*/
 }
 
 
