@@ -43,6 +43,8 @@
 
 ## 그림판 - 클라이언트 프로그램
 
+![play](https://github.com/cherrytomato1/image_Drawer/blob/master/readme/4_play.gif)
+
 ### 메뉴 화면
 <img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
 - 메뉴 화면
@@ -89,7 +91,7 @@
 ## 서버 프로그램
 
 ### 서버
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_wating.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_waiting.PNG" />
 - 클라이언트 대기
 
 <img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_send.PNG" />
