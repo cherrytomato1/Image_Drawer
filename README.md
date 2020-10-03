@@ -63,7 +63,7 @@
 <img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_copy_copy.PNG" />
 - 부분 복사
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_cioy_paste.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_copy_paste.PNG" />
 - 붙여넣기
 
 ### 파일 입출력
