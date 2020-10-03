@@ -49,53 +49,53 @@
 
 ### 그리기 화면
 (그리기 화면 및 그리기 화면 설명)
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_description_cursor.PNG" />
 - 그리기 화면/ 커서 옵션
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_description_control.PNG" />
 - 그리기 화면/ 페이지 조작
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw2.PNG" />
 - 그림 예시
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_copy_copy.PNG" />
 - 부분 복사
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/2_draw_cioy_paste.PNG" />
 - 붙여넣기
 
 ### 파일 입출력
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/3_save_file.PNG" />
 - 파일 저장
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/3_load_file.PNG" />
 - 파일 불러오기
 
 
 ### 재생
-![play](https://github.com/kyu9341/BalanceGame/blob/master/images/balancegame.png)
+![play](https://github.com/cherrytomato1/image_Drawer/blob/master/readme/4_play.gif)
 - 재생
 
 
 ### 서버 접속
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/4_client_upload.PNG" />
 - 서버 파일 업로드
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/4_client_download.PNG" />
 - 서버 파일 다운로드
 
 
 ## 서버 프로그램
 
 ### 서버
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_wating.PNG" />
 - 클라이언트 대기
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_send.PNG" />
 - Sending
 
-<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/5_server_receive.PNG" />
 - receive
 
 
