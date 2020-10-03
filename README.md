@@ -6,15 +6,15 @@
 ## 팀 구성
 - 프로그래밍 설계
 
-팀장 : 김민기
+  팀장 : 김민기
 
-팀원 : 이진형, 장병민, 최소정
+  팀원 : 이진형, 장병민, 최소정
 
 - 컴퓨터 통신
 
-팀장 : 김민기
+  팀장 : 김민기
 
-팀원 : 김도운
+  팀원 : 김도운
 
 ## 개발 환경
 - Visual Studio 2010
@@ -32,32 +32,72 @@
 - 연결리스트를 임의의 파일 입출력
 - 소켓으로 클라이언트-서버 간 파일 입출력
 
-(그림판 블록도, 소켓통신 블록도)
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/0_draw_diagram.png" />
+- 그림판 다이어그램
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/0_download_diagram.png" />
+- 소켓 업로드 다이어그램
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/0_download_diagram.png" />
+- 소켓 다운로드 다이어그램
+
 ## 그림판 - 클라이언트 프로그램
 
 ### 메뉴 화면
-(메뉴화면)
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 메뉴 화면
 
 ### 그리기 화면
 (그리기 화면 및 그리기 화면 설명)
-(각각의 메뉴에 대한 설명)
-(1. 오른쪽 포인터 옵션 설명)
-(2. 아래 쪽 노드 제어 및 종료 등 설명)
-(3. 복사 기능 설명)
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 그리기 화면/ 커서 옵션
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 그리기 화면/ 페이지 조작
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 그림 예시
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 부분 복사
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 붙여넣기
 
 ### 파일 입출력
-(파일 저장 및 불러오기 설명)
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 파일 저장
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 파일 불러오기
+
 
 ### 재생
-(재생 gif)
+![play](https://github.com/kyu9341/BalanceGame/blob/master/images/balancegame.png)
+- 재생
+
 
 ### 서버 접속
-(서버 접속 및 파일 입출력)
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 서버 파일 업로드
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 서버 파일 다운로드
+
 
 ## 서버 프로그램
 
 ### 서버
-(서버 및 파일 입출력 과정 설명)
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- 클라이언트 대기
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- Sending
+
+<img src="https://github.com/cherrytomato1/image_Drawer/blob/master/readme/1_main.PNG" />
+- receive
+
 
 
 
