@@ -42,9 +42,9 @@ void err_display(char *msg)
 
 void printDir()	//디렉토리출력
 {
-	printf("\n---------------------- C:\MyServer\ -------------------\n\n");
-	system("dir C:\MyServer /b");
-	printf("\n---------------------- C:\MyServer\ -------------------\n\n");
+	printf("\n---------------------- .\\..\\MyServer\ -------------------\n\n");
+	system("dir .\\..\\MyServer /b");
+	printf("\n---------------------- .\\..\\MyServer\ -------------------\n\n");
 }
 
 // 사용자 정의 데이터 수신 함수
@@ -64,7 +64,7 @@ int savef(SOCKET client_sock)
 	}
 	printf("파일 이름 수신!! 파일 이름 : %s\n",fname);
 
-	strcpy(path,"C:\\MyServer\\");
+	strcpy(path,".\\..\\MyServer\\");
 
 	
 	strcat(path,fname);//파일이름과 경로합치기
@@ -127,7 +127,7 @@ int loadf(SOCKET client_sock)
 
 		printf("파일 이름 수신!! 파일 이름 : %s\n",fname);
 
-		strcpy(path,"C:\\MyServer\\");
+		strcpy(path,".\\..\\MyServer\\");
 
 		strcat(path,fname);//파일이름과 경로합치기
 
@@ -199,8 +199,8 @@ int main(int argc, char *argv[])
 
 
 
-	if(mkdir("C:\\MyServer\\")==0)
-		printf("C:\\MyServer\\ 폴더를 새로 생성!!!");
+	if(mkdir(".\\..\\MyServer\\")==0)
+		printf(".\\..\\MyServer\\ 폴더를 새로 생성!!!");
 
 	printDir();
 
