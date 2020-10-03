@@ -208,8 +208,6 @@ int MouseClick(int *x, int *y)
 	DWORD   dwNOER;
 	INPUT_RECORD rec;
 
-	int tempX,tempY;
-
 	hIn=GetStdHandle(STD_INPUT_HANDLE);
 	hOut=GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleMode(hIn, ENABLE_PROCESSED_INPUT | ENABLE_MOUSE_INPUT);
@@ -223,11 +221,11 @@ int MouseClick(int *x, int *y)
 		gotoxy(xMax-8,0);
 		//if(*x<pxMax&&*y<pyMax)
 		printf("%3d,%3d",*x,*y);
-		if( tempX = rec.EventType == MOUSE_EVENT )
+		if(rec.EventType == MOUSE_EVENT )
 		{		
-			if( tempX = rec.Event.MouseEvent.dwButtonState == FROM_LEFT_1ST_BUTTON_PRESSED )
+			if( rec.Event.MouseEvent.dwButtonState == FROM_LEFT_1ST_BUTTON_PRESSED )
 				return 1;
-			if( tempY = rec.Event.MouseEvent.dwButtonState == RIGHTMOST_BUTTON_PRESSED )		//우클릭 함수
+			if(rec.Event.MouseEvent.dwButtonState == RIGHTMOST_BUTTON_PRESSED )		//우클릭 함수
 			{																		//우클릭의 경우 xy값을 음수로 받는다.
 				*x = rec.Event.MouseEvent.dwMousePosition.X*-1 -1;					//0,0이 겹치니까 -1을 또 해줌
 				*y = rec.Event.MouseEvent.dwMousePosition.Y*-1 -1;
@@ -415,7 +413,7 @@ void printDir()
 	system("cls");
 	gotoxy(0,0);
 	printf("\n---------------------- \MyPicture\ -------------------\n\n");
-	system("dir .\\..\\MyPicture /b");
+	system("dir .\..\MyPicture /b");
 	printf("\n---------------------- \MyPicture\ -------------------\n\n");
 }
 
@@ -830,7 +828,7 @@ int sendf()
 	int fsize=0;
 
 	while(1){
-		strcpy(path,".\\..\\MyPicture\\");	
+		strcpy(path,".\\MyPicture\\");	
 
 
 		strcat(path,fname);
@@ -938,7 +936,7 @@ int loadf()
 	char *buf;
 	FILE *fp;
 	int fsize=0;
-	//char path[50]="C:\\MyPicture\\";
+	//char path[50]=".\\MyPicture\\";
 
 	retval = recv(sock, (char *)&fsize, sizeof(int), 0);		//파일사이즈받기
 
@@ -959,7 +957,7 @@ int loadf()
 	scanf("%s",fname);
 	fflush(stdin);
 
-	strcpy(path,".\\..\\MyPicture\\");	
+	strcpy(path,".\\MyPicture\\");	
 	strcat(path,fname);
 
 	//printf("%s ",path);
