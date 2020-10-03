@@ -204,7 +204,7 @@ listNode* deleteNode(listHead *L,listNode *current)		//노드삭제
 
 int MouseClick(int *x, int *y)
 { 
-	/*HANDLE   hIn, hOut;
+	HANDLE   hIn, hOut;
 	DWORD   dwNOER;
 	INPUT_RECORD rec;
 
@@ -235,7 +235,7 @@ int MouseClick(int *x, int *y)
 			}
 		}
 	}
-	*/
+	
 }
 
 
@@ -1065,6 +1065,12 @@ int menu()		//메뉴함수
 int main(int argc, char *argv[])
 {
 	system("mode con:cols=120 lines=33");	//콘솔창 크기 변경
+
+	DWORD prevMode = 0;							//빠른편집모드 해제 명령
+	HANDLE handle = GetStdHandle(STD_INPUT_HANDLE);
+	GetConsoleMode(handle, &prevMode);
+	SetConsoleMode(handle, prevMode & ~ENABLE_QUICK_EDIT_MODE);
+
 	while(1)
 		menu();
 }
