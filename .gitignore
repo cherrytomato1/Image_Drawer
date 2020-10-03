@@ -351,6 +351,6 @@ MigrationBackup/
 
 #저장된 파일 및 테스트용 파일
 
-MyPicture/
-MyServer/
-temp/
+/MyPicture
+/MyServer
+/temp
